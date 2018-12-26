@@ -1,0 +1,17 @@
+Console Version
+0. Ask for user settings.
+1. Store user settings in a XML file. //will be more important for application version
+    {zip codes (start point, mid point, end point)}
+2. Pull user settings from an XML file.
+3. API Request - Google Directions
+4. Create Objects with Locations (Location Cards)
+5. API Request - Goodle Locations
+6. API Request - Weather
+7. Create Objects with Weather (Weather Cards)
+8. Algorithim to determine best times to leave.
+9. Print out best times.
+
+Application Version
+1. Input Boxes for start, mid, end.
+2. Button to check information and conduct requests.
+3. Output into text box for user.
