@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using WeatherYouDrive.sources;
 
 namespace WeatherYouDrive
 {
@@ -11,7 +11,8 @@ namespace WeatherYouDrive
     {
         static void Main(string[] args)
         {
-            //User settings class.
+            UserSettings lUserSettings = new UserSettings();
+
             //Location API (distance)
             //Distance API
             //Location Objects
