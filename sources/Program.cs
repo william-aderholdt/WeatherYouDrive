@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WeatherYouDrive.sources;
+using Microsoft.Extensions.Http;
+
 
 namespace WeatherYouDrive
 {
@@ -11,7 +13,8 @@ namespace WeatherYouDrive
     {
         static void Main(string[] args)
         {
-            UserSettings lUserSettings = new UserSettings();
+            UserSettings gUserSettings = new UserSettings();
+            LocationAPI gLocationData = new LocationAPI(ref gUserSettings);
 
             //Location API (distance)
             //Distance API
@@ -29,7 +32,7 @@ namespace WeatherYouDrive
         //}
 
         //static void PrintBestTimes()
-        //{
+        //{;
             // print the best times to drive.
         //}
     }
